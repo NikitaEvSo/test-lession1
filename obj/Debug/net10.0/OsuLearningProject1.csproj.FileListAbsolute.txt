@@ -12,3 +12,4 @@
 /home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/OsuLearningProject1.pdb
 /home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/OsuLearningProject1.genruntimeconfig.cache
 /home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/ref/OsuLearningProject1.dll
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/OsuLearningProject1.sourcelink.json
