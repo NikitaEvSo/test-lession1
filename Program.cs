@@ -2,13 +2,14 @@
 using static Learning.HitObject;
 namespace Learning
 {
-    public class HitObject(int time, ObjectType objectType)
+    public class HitObject(int time, ObjectType objectType,int comboNumber =1 )
     {
 
         public enum ObjectType
         {
             Circle, Slider
         }
+        public int ComboNumber { get; set; } = comboNumber;
         public int Time { get; set; } = time;
         public ObjectType Type { get; set; } = objectType;
     }
@@ -46,11 +47,11 @@ public static class Program
         List<HitObject> objects = [new(9, ObjectType.Circle), new(19, ObjectType.Slider), new(20, ObjectType.Slider), new(15, ObjectType.Circle), new(11, ObjectType.Slider)];
         await SaveObjectsAsync(path, objects);
         var loaded = await LoadObjectsAsync(path);
-        loaded.ForEach(it => Console.WriteLine($"{it.Time}| {it.Type}"));
+        loaded.ForEach(it => Console.WriteLine($"{it.Time}| {it.Type}| {it.ComboNumber}"));
     }
     public static async Task SaveObjectsAsync(string filePath, IEnumerable<HitObject> objects)
     {
-        var content = objects.Select(it => $"{it.Time},{it.Type}");
+        var content = objects.Select(it => $"{it.Time},{it.Type},{it.ComboNumber}");
         await File.WriteAllLinesAsync(filePath, content);
     }
 
@@ -63,7 +64,7 @@ public static class Program
             content.ToList().ForEach(it =>
             {
                 var currentObj = it.Split(',');
-                hitObjects.Add(new(int.Parse(currentObj[0]), Enum.Parse<ObjectType>(currentObj[1])));
+                hitObjects.Add(new(int.Parse(currentObj[0]), Enum.Parse<ObjectType>(currentObj[1]),int.Parse(currentObj[2])));
             }
             );
         }
