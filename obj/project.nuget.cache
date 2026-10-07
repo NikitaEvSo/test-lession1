@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "77edtRUBiZ4=",
+  "success": true,
+  "projectFilePath": "/home/nikita/osLearningProjects/project1/OsuLearningProject1/OsuLearningProject1.csproj",
+  "expectedPackageFiles": [
+    "/home/nikita/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.12/microsoft.aspnetcore.app.ref.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

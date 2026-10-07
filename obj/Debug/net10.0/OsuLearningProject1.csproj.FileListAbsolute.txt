@@ -1,0 +1,14 @@
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/OsuLearningProject1.GeneratedMSBuildEditorConfig.editorconfig
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/OsuLearningProject1.AssemblyInfoInputs.cache
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/OsuLearningProject1.AssemblyInfo.cs
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/OsuLearningProject1.csproj.CoreCompileInputs.cache
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/bin/Debug/net10.0/OsuLearningProject1
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/bin/Debug/net10.0/OsuLearningProject1.deps.json
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/bin/Debug/net10.0/OsuLearningProject1.runtimeconfig.json
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/bin/Debug/net10.0/OsuLearningProject1.dll
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/bin/Debug/net10.0/OsuLearningProject1.pdb
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/OsuLearningProject1.dll
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/refint/OsuLearningProject1.dll
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/OsuLearningProject1.pdb
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/OsuLearningProject1.genruntimeconfig.cache
+/home/nikita/osLearningProjects/project1/OsuLearningProject1/obj/Debug/net10.0/ref/OsuLearningProject1.dll
